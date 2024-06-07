@@ -8,7 +8,7 @@ APIPulse is a comprehensive Go package designed to monitor, log, and manage API 
 To install the package, run:
 
 ```sh
-go get github.com/kingzmentech2019/apipulse
+go get github.com/kingztech2019/apipulse
 ```
 ## Features
 * **Metrics Collection:** Gather detailed metrics on API request counts, durations, errors, sizes, and more using Prometheus.
@@ -33,7 +33,7 @@ import (
     "net/http"
     "time"
 
-    "github.com/kingzmentech2019/apipulse"
+    "github.com/kingztech2019/apipulse"
 )
 
 func main() {
@@ -139,7 +139,7 @@ import (
     "net/http"
     "time"
 
-    "github.com/kingzmentech2019/apipulse"
+    "github.com/kingztech2019/apipulse"
 )
 
 func main() {
