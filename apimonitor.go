@@ -19,6 +19,8 @@ type APIMonitor struct {
 	Interceptor *interceptor.Interceptor
 }
 
+// The New function initializes and returns an APIMonitor instance with metrics, health checker, rate
+// limiter, and interceptors configured.
 func New(limit int, interval time.Duration) *APIMonitor {
 	m := metrics.NewMetrics()
 	hc := health.NewHealthChecker()
