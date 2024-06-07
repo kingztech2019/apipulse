@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kingzmentech2019/apipulse/pkg/health"
-	"github.com/kingzmentech2019/apipulse/pkg/interceptor"
-	"github.com/kingzmentech2019/apipulse/pkg/logging"
-	"github.com/kingzmentech2019/apipulse/pkg/metrics"
-	"github.com/kingzmentech2019/apipulse/pkg/rate"
-	"github.com/kingzmentech2019/apipulse/pkg/recovery"
+	"github.com/kingztech2019/apipulse/pkg/health"
+	"github.com/kingztech2019/apipulse/pkg/interceptor"
+	"github.com/kingztech2019/apipulse/pkg/logging"
+	"github.com/kingztech2019/apipulse/pkg/metrics"
+	"github.com/kingztech2019/apipulse/pkg/rate"
+	"github.com/kingztech2019/apipulse/pkg/recovery"
 )
 
 type APIMonitor struct {

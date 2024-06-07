@@ -1,4 +1,4 @@
-module github.com/kingzmentech2019/apipulse
+module github.com/kingztech2019/apipulse
 
 go 1.22.3
 

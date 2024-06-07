@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kingzmentech2019/apipulse"
+	"github.com/kingztech2019/apipulse"
 )
 
 func main() {
